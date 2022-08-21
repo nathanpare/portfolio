@@ -17,21 +17,22 @@ background-color: #28282B;
 }
 
 body {
-  background: linear-gradient(#FF0000, #FF7878);
+  background: linear-gradient(#009FFD, #2A2A72);
   min-height: 100vh;
   color: white;
   font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .project {
   width: 90vw;
-  height: 400px;
+  height: 300px;
   background-color: #28282B;
   border-radius: 20px;
   margin: 5rem;
   padding: 2rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -45,10 +46,10 @@ body {
   cursor: pointer;
   display: inline-block;
   font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 16px;
-  min-height: 40px;
+  min-height: 45px;
   outline: 0;
   padding: 12px 14px;
   text-align: center;
@@ -73,4 +74,24 @@ body {
 
 i {
   cursor: pointer;
+}
+
+.description {
+  font-size: 23px;
+}
+
+.reverb-title {
+  color: #0cbaba;
+}
+
+.mike-title {
+  color: rgb(255, 111, 135);
+}
+
+.scheduler-title {
+  color: rgb(150, 150, 150);
+}
+
+.bnb-title {
+  color: #ff5a5f;
 }
